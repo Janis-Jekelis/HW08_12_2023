@@ -1,3 +1,8 @@
+body {
+    box-sizing: border-box;
+
+}
+
 nav {
     display: flex;
     margin: 50px 90px;
@@ -9,8 +14,11 @@ nav {
 
 .blog {
     position: absolute;
-    left: 40%;
+    left: 35%;
+}
 
+.blog span {
+    margin: 15px;
 }
 
 .logo {
@@ -47,7 +55,14 @@ nav {
     padding: 0 15px;
 }
 
+.hero-container {
+    position: fixed;
+    left: 80px;
+}
+
 .hero-first-row {
+    position: relative;
+    width: 350px;
     font-size: 15px;
     color: darkgrey;
 }
@@ -56,11 +71,23 @@ nav {
 .selected-text {
     color: #a60c0c;
 }
-.progress-bar{
-    width: 30px;
-    height: 5px;
+
+.hero-progress {
+    width: 45px;
+    background-color: #a60c0c;
 }
 
-.hero-first-row{
+.hero-progress-bar {
+    position: absolute;
+    width: 295px;
+    bottom: 0;
+    left: 15px;
+    right: 150px;
+    height: 1px;
+    padding: 0 0;
 
+}
+
+.hero-second-row p {
+    color: darkgray;
 }
