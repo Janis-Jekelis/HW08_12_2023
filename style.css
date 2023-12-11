@@ -1,6 +1,6 @@
 nav {
     display: flex;
-    margin: 50px 80px;
+    margin: 50px 90px;
     font-size: 12px;
     align-items: center;
     font-weight: bold;
@@ -21,8 +21,9 @@ nav {
     margin: 0 30px;
     position: relative;
 }
+
 .services::after {
-    content:"";
+    content: "";
     border-bottom: 1px solid #c02525;
     position: absolute;
     bottom: -5px;
@@ -46,5 +47,20 @@ nav {
     padding: 0 15px;
 }
 
+.hero-first-row {
+    font-size: 15px;
+    color: darkgrey;
+}
 
 
+.selected-text {
+    color: #a60c0c;
+}
+.progress-bar{
+    width: 30px;
+    height: 5px;
+}
+
+.hero-first-row{
+
+}
