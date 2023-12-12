@@ -328,7 +328,8 @@ ul li:before {
 .Jerry-card small {
     color: dimgrey;
 }
-.Jerry-card{
+
+.Jerry-card {
     position: relative;
 }
 
@@ -339,7 +340,7 @@ ul li:before {
     top: 80px;
 }
 
-.LeeveOn-card{
+.LeeveOn-card {
     position: relative;
 }
 
@@ -354,28 +355,33 @@ ul li:before {
     top: 65px;
 }
 
-.webservers{
+.webservers {
     max-width: 350px;
 }
 
-.partner-logos1{
+.partner-logos1 {
     height: 80px;
     display: flex;
     justify-content: end;
     gap: 40px;
 }
 
-.partner-logos2{
+.partner-logos2 {
     height: 80px;
     display: flex;
     justify-content: end;
     gap: 40px;
 }
 
-.partner-logo-align{
+.partner-logo-align {
     position: relative;
 }
-.partner-logo-div{
+
+.partner-logo-div {
     position: absolute;
     right: -50px;
+}
+
+.add {
+    background-color: #a6b4c5;
 }
