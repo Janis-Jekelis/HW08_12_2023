@@ -434,3 +434,29 @@ ul li:before {
     right: -15px;
     bottom: 10%;
 }
+
+footer {
+    height: 400px;
+    background-color: #a60c0c;
+    color: white;
+    position: relative;
+    font-size: 13px;
+}
+
+footer p {
+    line-height: 30px;
+}
+
+.lemon-wares {
+    width: 80px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    line-height: 45px;
+}
+
+.heart {
+    width: 15px;
+}
