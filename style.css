@@ -57,8 +57,7 @@ nav {
 }
 
 .hero-container {
-    position: fixed;
-    left: 80px;
+    margin: 0 80px;
 }
 
 .hero-first-row {
@@ -126,7 +125,7 @@ nav {
     border-right: 20px solid transparent;
     border-bottom: 20px solid #a60c0c;
     position: absolute;
-    left:0;
+    left: 0;
     bottom: 40%;
 }
 
@@ -136,7 +135,7 @@ nav {
     border-left: 20px solid transparent;
     border-bottom: 20px solid #a60c0c;
     position: absolute;
-    right:0;
+    right: 0;
     bottom: 80%;
 }
 
@@ -146,7 +145,7 @@ nav {
     border-left: 35px solid transparent;
     border-bottom: 30px solid #a60c0c;
     position: absolute;
-    right:0;
+    right: 0;
     bottom: 20%;
 }
 
@@ -157,13 +156,29 @@ nav {
     position: relative;
 }
 
-.hero-content h1{
+.hero-content h1 {
     max-width: 350px;
 }
 
-.hero-content p{
+.hero-content p {
     max-width: 350px;
 }
-.hero-content{
+
+.hero-content {
     max-width: 400px;
+}
+
+
+.web-hosting {
+    margin: 80px 60px;
+}
+
+.hosting-description{
+    max-width: 350px;
+    font-size: 11px;
+    margin: 20px 0;
+}
+
+.web-hosting h1 {
+    max-width: 330PX;
 }
