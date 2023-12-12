@@ -206,3 +206,83 @@ nav {
     font-size: 10px;
 }
 
+.button-slider {
+    display: flex;
+    margin: 0 0 0 40px;
+    justify-content: space-between;
+    width: 100px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #a60c0c;
+    align-items: center;
+}
+
+.button-slider button {
+    height: 35px;
+    width: 35px;
+    border: none;
+    border-radius: 80px;
+}
+
+.disabled {
+    background-color: #a60c0c;
+}
+
+.discount {
+    display: flex;
+    margin: 0 0 0 20px;
+    background-color: #d3d349;
+    height: 20px;
+    width: 100px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+
+}
+
+.discount small {
+    font-size: 10px;
+}
+
+.plan button {
+    background-color: white;
+    border: none;
+}
+
+.plan-progress-bar {
+    height: 5px;
+    width: 750px;
+    padding: 0 0;
+}
+
+.plan-progress {
+    width: 375px;
+    background-color: #a60c0c;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    color: dimgrey;
+}
+
+ul li:before {
+    content: '\2713';
+    color: black;
+}
+
+.plan-card button {
+    height: 45px;
+    width: 80%;
+    margin: 20px 20px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.plan-card h2{
+    font-size: 50px;
+}
+
