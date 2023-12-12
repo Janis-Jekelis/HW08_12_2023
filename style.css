@@ -282,7 +282,74 @@ ul li:before {
     border-radius: 10px;
     font-weight: bold;
 }
-.plan-card h2{
+
+.plan-card h2 {
     font-size: 50px;
 }
 
+.stories1 {
+    position: relative;
+}
+
+
+.q-image {
+    position: absolute;
+    top: -60px;
+    left: -45px;
+}
+
+.stories-container {
+    margin: 150px 0 0 40px;
+}
+
+.crypto-card {
+    width: 300px;
+}
+
+.crypto-align {
+    display: flex;
+    justify-content: end;
+    position: relative;
+
+}
+
+.crypto-align small {
+    color: dimgrey;
+    padding: 0 0 45px 0;
+}
+
+.blue-Q {
+    width: 15px;
+    position: absolute;
+    left: 25px;
+    top: 50px;
+}
+
+.Jerry-card small {
+    color: dimgrey;
+}
+.Jerry-card{
+    position: relative;
+}
+
+.blue-Q-Jerry {
+    width: 15px;
+    position: absolute;
+    left: 25px;
+    top: 80px;
+}
+
+.LeeveOn-card{
+    position: relative;
+}
+
+.LeeveOn-card small {
+    color: dimgrey;
+}
+
+.blue-Q-LeeveOn {
+    width: 15px;
+    position: absolute;
+    left: 25px;
+    top: 65px;
+}
