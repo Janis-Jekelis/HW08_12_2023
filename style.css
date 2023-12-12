@@ -352,7 +352,7 @@ ul li:before {
     width: 15px;
     position: absolute;
     left: 25px;
-    top: 65px;
+    top: 50px;
 }
 
 .webservers {
@@ -385,6 +385,7 @@ ul li:before {
 .add {
     background-color: #f3f5f8;
     padding: 0 200px 50px 200px;
+    position: relative;
 }
 
 .add button {
@@ -399,7 +400,37 @@ ul li:before {
     text-align: left;
 }
 
-.whatsapp{
+.whatsapp {
     width: 15px;
-    margin: 10px 12px 12px 0 ;
+    margin: 10px 12px 12px 0;
+}
+
+.add-left-triangle {
+    width: 0;
+    height: 0;
+    border-right: 20px solid transparent;
+    border-bottom: 20px solid #a60c0c;
+    position: absolute;
+    left: -10px;
+    bottom: 40%;
+}
+
+.add-right-triangle {
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-bottom: 20px solid #a60c0c;
+    position: absolute;
+    left: 260px;
+    top: 0;
+}
+
+.add-right-triangle-large {
+    width: 0;
+    height: 0;
+    border-left: 35px solid transparent;
+    border-bottom: 35px solid #a60c0c;
+    position: absolute;
+    right: -15px;
+    bottom: 10%;
 }
