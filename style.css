@@ -383,6 +383,23 @@ ul li:before {
 }
 
 .add {
-    background-color: #a6b4c5;
+    background-color: #f3f5f8;
     padding: 0 200px 50px 200px;
+}
+
+.add button {
+    border: none;
+    border-radius: 5px;
+    background-color: #ad2222;
+    color: white;
+    font-size: 10px;
+    width: 160px;
+    height: 35px;
+    padding: 0 10px;
+    text-align: left;
+}
+
+.whatsapp{
+    width: 15px;
+    margin: 10px 12px 12px 0 ;
 }
