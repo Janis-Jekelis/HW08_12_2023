@@ -172,10 +172,12 @@ nav {
 .web-hosting {
     margin: 80px 0 0 60px;
 }
-.web-hosting-description{
+
+.web-hosting-description {
     max-width: 400px;
 }
-.hosting-description{
+
+.hosting-description {
     max-width: 350px;
     font-size: 11px;
     margin: 20px 0;
@@ -184,15 +186,23 @@ nav {
 .web-hosting h1 {
     max-width: 330PX;
 }
-.hosting-logos div{
+
+.hosting-logos div {
     display: flex;
- justify-content: space-between;
+    justify-content: space-between;
     align-items: center;
 }
-.hosting-logos{
+
+.hosting-logos {
     width: 600px;
 }
-.hosting-logos img{
+
+.hosting-logos img {
     width: 100px;
     margin: 10px;
 }
+
+.frames p {
+    font-size: 10px;
+}
+
